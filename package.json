@@ -1,0 +1,27 @@
+{
+    "name": "@lazybaer/photonbaer",
+    "version": "1.0.0",
+    "description": "particle.io photon module",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/* --timeout 60000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cwdcwd/photonbaer.git"
+    },
+    "author": "lazybaer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cwdcwd/photonbaer/issues"
+    },
+    "homepage": "https://github.com/cwdcwd/photonbaer#readme",
+    "dependencies": {
+        "config": "latest",
+        "request": "latest"
+    },
+    "devDependencies": {
+        "chai": "latest",
+        "mocha": "latest"
+    }
+}
